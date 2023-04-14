@@ -31,7 +31,7 @@ def get_ip_info(ip: str) -> dict:
 
 def tracert(host: str) -> str:
     # Запускаем консольную утилиту tracert и возвращаем результат ее работы
-    return subprocess.run(f'tracert {host}',
+    return subprocess.run(f'tracert -d -w 50 {host}',
                           capture_output=True, text=True).stdout
 
 
