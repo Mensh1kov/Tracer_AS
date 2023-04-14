@@ -16,8 +16,8 @@ Tracer of Autonomous Systems - это консольное приложение 
 
 Для запуска приложения необходимо выполнить команду:
 
-```cmd
-py tracer.py [ip\domain_name]
+```shell
+py tracer.py <ip\domain_name>
 ```
 Где `ip\domain name` - это ip адрес или доменное имя, для которого требуется определить маршрут следования.
 
@@ -33,13 +33,13 @@ Tracer of Autonomous Systems написан на языке программир
 
 Пример запуска:
 
-```cmd
+```shell
 py tracer.py 8.8.8.8
 ```
 
 Пример вывода:
 
-```cmd
+```
 Tracing a route to "8.8.8.8":  
 
 +----+----------------+-------+---------+-----------------+ 
